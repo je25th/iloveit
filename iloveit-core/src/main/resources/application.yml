@@ -1,5 +1,8 @@
 spring:
-  port: 8080
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
 
 logging:
   level:
