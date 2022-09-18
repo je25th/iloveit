@@ -1,12 +1,10 @@
 package com.iloveit.service;
 
 import com.iloveit.entity.Member;
+import com.iloveit.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import com.iloveit.repository.MemberRepository;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 @Service
 @Transactional(readOnly = true)

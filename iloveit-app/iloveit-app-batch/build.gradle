@@ -2,7 +2,7 @@ bootJar { enabled = true }
 jar { enabled = false }
 
 dependencies {
-    api project(':iloveit-core')
+    api project(':iloveit-domain:iloveit-domain-rds')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'

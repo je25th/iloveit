@@ -8,8 +8,9 @@ configurations {
 }
 
 dependencies {
-    implementation project(':iloveit-core')
-//    api project(':iloveit-core')
+    implementation project(':iloveit-domain:iloveit-domain-redis')
+    implementation project(':iloveit-domain:iloveit-domain-rds')
+//    api project(':iloveit-domain:iloveit-domain-rds')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
