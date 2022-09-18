@@ -1,6 +1,7 @@
 package com.iloveit.service;
 
 import com.iloveit.entity.Member;
+import com.iloveit.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

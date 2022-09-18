@@ -1,4 +1,4 @@
-package com.iloveit.service;
+package com.iloveit.member;
 
 import com.iloveit.entity.Member;
 import com.iloveit.repository.MemberRepository;
